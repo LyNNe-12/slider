@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+}
+a {
+    text-decoration: none;
+    color: #000;
+    font-size: 30px;
+}
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.slider {
+    display: flex;
+}
+.image {
+    width: 600px;
+    display: none;
+}
+.current {
+    display: block;
+}
+.buttons {
+    display: flex;
+    column-gap: 30px;
+    max-width: fit-content;
+    margin: 0 auto;
+}
